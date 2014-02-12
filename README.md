@@ -1,8 +1,13 @@
 # polyfill-speechsynthesis
 
-Enables window.speechSynthesis and window.SpeechSynthesisUtterance on browser without native support.
+> Enables window.speechSynthesis and window.SpeechSynthesisUtterance on browser without native support.
 
-## Usage
+## Gettings started
+```shell
+bower install polyfill-speechsynthesis --save
+```
+
+### Usage
 
     var speech = new SpeechSynthesisUtterance('Hello, world!');
     window.speechSynthesis.speak(speech);
