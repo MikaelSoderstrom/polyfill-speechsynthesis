@@ -5,7 +5,19 @@
         var txt = document.getElementById('txt');
 
         var speech = new SpeechSynthesisUtterance(txt.value);
-        speech.lang = 'sv'; // sv
+        speech.lang = document.getElementById('lang').value;
+        speech.volume = parseInt(document.getElementById('vol').value) / 100;
+        
+        console.log(speech.volume);
+        
+        speech.onstart = function() {
+            console.log('Starting...');
+        };
+        
+        speech.onend = function() {
+            console.log('Stopping...');
+        };
+        
         window.speechSynthesis.speak(speech);
         
         /*

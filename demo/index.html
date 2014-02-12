@@ -24,6 +24,19 @@
     <h1>Speech synthesis</h1>
 
     <textarea id="txt" rows="4" cols="25" placeholder="Enter text to speak..."></textarea>
+    
+    <select id="lang">
+        <option value="en" selected="selected">English</option>
+        <option value="sv">Swedish</option>
+    </select>
+    
+    <div>
+        <label>
+            <b>Volume</b>
+            <input type="range" min="0" max="100" value="100" id="vol" />
+        </label>
+    </div>
+    
     <input type="button" id="btn" value="Speak" />
     
     <script src="demo.js"></script>
