@@ -3,13 +3,27 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     <script src="../lib/polyfill-speechsynthesis.js"></script>
+    <style type="text/css">
+        * {
+            font-family: Arial;
+        }
+        
+        input, textarea, select {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            display: block;
+            margin: 8px;
+            padding: 6px;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Speech synthesis</h1>
 
-    <input type="text" id="txt" placeholder="Enter text to speak..." />
+    <textarea id="txt" rows="4" cols="25" placeholder="Enter text to speak..."></textarea>
     <input type="button" id="btn" value="Speak" />
     
     <script src="demo.js"></script>

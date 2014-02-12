@@ -5,7 +5,7 @@
         var txt = document.getElementById('txt');
 
         var speech = new SpeechSynthesisUtterance(txt.value);
-        speech.lang = 'en'; // sv
+        speech.lang = 'sv'; // sv
         window.speechSynthesis.speak(speech);
         
         /*
