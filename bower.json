@@ -1,0 +1,25 @@
+{
+  "name": "polyfill-speechsynthesis",
+  "version": "0.0.1",
+  "homepage": "https://github.com/MikaelSoderstrom/polyfill-speechsynthesis",
+  "authors": [
+    "Mikael Soderstrom <mikael.soderstrom@live.se>"
+  ],
+  "description": "Enables window.speechSynthesis and window.SpeechSynthesisUtterance on browser without native support.",
+  "main": "lib/polyfill-speechsynthesis.js",
+  "keywords": [
+    "speech",
+    "javascript",
+    "polyfill",
+    "speechsynthesis",
+    "synthesis"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
