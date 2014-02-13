@@ -15,3 +15,18 @@ bower install polyfill-speechsynthesis --save
     window.speechSynthesis.speak(speech);
     
 A demo page is included in ./demo/index.html
+
+
+#### Versions
+
+##### 0.0.3
+Added a Grunt file with JSHint and Uglify
+Added a minified version of the polyfill (file size ~0.5 KB)
+Added source maps
+
+##### 0.0.2
+Added CORS Proxy
+Bug fixes
+
+##### 0.0.1
+Initial release

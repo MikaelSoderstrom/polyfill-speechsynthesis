@@ -1,0 +1,22 @@
+{
+  "name": "polyfill-speechsynthesis",
+  "dependencies": {
+    "grunt": "~0.4.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "time-grunt": "~0.2.9",
+    "matchdep": "~0.3.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-uglify": "~0.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MikaelSoderstrom/polyfill-speechsynthesis.git"
+  },
+  "author": "Mikael Söderström <mikael.soderstrom@live.se>",
+  "bugs": {
+    "url": "https://github.com/MikaelSoderstrom/polyfill-speechsynthesis/issues"
+  },
+  "homepage": "https://github.com/MikaelSoderstrom/polyfill-speechsynthesis"
+}
