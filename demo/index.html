@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Polyfill-speechsynthesis : Enables window.speechSynthesis on browser without native support." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/stylesheet.css">
+
+    <title>Polyfill-speechsynthesis</title>
+
+    <script src="https://rawgithub.com/MikaelSoderstrom/polyfill-speechsynthesis/master/lib/polyfill-speechsynthesis.min.js"></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+            <a id="forkme_banner" href="https://github.com/MikaelSoderstrom/polyfill-speechsynthesis">View on GitHub</a>
+
+            <h1 id="project_title">Polyfill-speechsynthesis</h1>
+            <h2 id="project_tagline">Enables window.speechSynthesis on browser without native support.</h2>
+
+            <section id="downloads">
+                <a class="zip_download_link" href="https://github.com/MikaelSoderstrom/polyfill-speechsynthesis/zipball/master">Download this project as a .zip file</a>
+                <a class="tar_download_link" href="https://github.com/MikaelSoderstrom/polyfill-speechsynthesis/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+        <section id="main_content" class="inner">
+            <h1>Speech synthesis</h1>
+
+            <textarea id="txt" rows="4" cols="25" placeholder="Enter text to speak..."></textarea>
+
+            <select id="lang">
+                <option value="en" selected="selected">English</option>
+                <option value="sv">Swedish</option>
+            </select>
+
+            <div>
+                <label>
+                    <b>Volume</b>
+                    <input type="range" min="0" max="100" value="100" id="vol" />
+                </label>
+            </div>
+
+            <input type="button" id="btn" value="Speak" />
+
+            <script src="demo.js"></script>
+        </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+        <footer class="inner">
+            <p class="copyright">Polyfill-speechsynthesis maintained by
+                <a href="https://github.com/MikaelSoderstrom">Mikael S&ouml;derstr&ouml;m</a>
+            </p>
+            <p>Published with
+                <a href="http://pages.github.com">GitHub Pages</a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="demo.js"></script>
+</body>
+
+</html>
