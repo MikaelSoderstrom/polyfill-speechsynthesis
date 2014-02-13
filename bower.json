@@ -1,6 +1,6 @@
 {
   "name": "polyfill-speechsynthesis",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "homepage": "https://github.com/MikaelSoderstrom/polyfill-speechsynthesis",
   "authors": [
     "Mikael Soderstrom <mikael.soderstrom@live.se>"
