@@ -1,5 +1,7 @@
 (function () {
-    var btn = document.getElementById('btn')
+    'use strict';
+    
+    var btn = document.getElementById('btn');
 
     btn.addEventListener('click', function () {
         var txt = document.getElementById('txt');
@@ -16,6 +18,6 @@
             console.log('Stopping...');
         };
         
-        window.speechSynthesis.speak(speech);
+        speechSynthesis.speak(speech);
     });
 })();
