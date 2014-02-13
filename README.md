@@ -30,3 +30,6 @@ Bug fixes
 
 ##### 0.0.1
 Initial release
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/MikaelSoderstrom/polyfill-speechsynthesis/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
