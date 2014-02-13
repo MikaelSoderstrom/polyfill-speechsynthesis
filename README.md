@@ -1,6 +1,6 @@
 # polyfill-speechsynthesis
 
-> Enables window.speechSynthesis and window.SpeechSynthesisUtterance on browser without native support.
+> Enables window.speechSynthesis and window.SpeechSynthesisUtterance on browsers without native support.
 
 ## Gettings started
 ```shell
